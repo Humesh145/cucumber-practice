@@ -16,6 +16,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
 public class Adactin_base {
@@ -43,6 +44,9 @@ public class Adactin_base {
 					//"C:\\Users\\Humesh\\eclipse-workspace\\Selenium\\Driver\\chromedriver.exe");				
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
+			
+			ChromeOptions option = new ChromeOptions();
+			
 			
 			
 						
